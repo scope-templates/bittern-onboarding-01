@@ -1,0 +1,17 @@
+[
+  {
+    "email": "mara@hollowbrook.example",
+    "company": "Hollowbrook Dental",
+    "plan": "team"
+  },
+  {
+    "email": "owen@fallowfield.example",
+    "company": "Fallowfield Bikes",
+    "plan": "starter"
+  },
+  {
+    "email": "ines@thornhaven.example",
+    "company": "Thornhaven Books",
+    "plan": "team"
+  }
+]

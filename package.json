@@ -1,0 +1,14 @@
+{
+  "name": "bittern-onboarding",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The job that sets up every new customer account through three services in a row",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node onboard.js",
+    "stubs": "node stubs/server.js"
+  }
+}

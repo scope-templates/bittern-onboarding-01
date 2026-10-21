@@ -1,0 +1,17 @@
+services:
+  - type: cron
+    name: bittern-onboarding
+    runtime: node
+    plan: starter
+    schedule: "*/10 * * * *"
+    buildCommand: npm ci
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: DIRECTORY_URL
+        sync: false
+      - key: BILLING_URL
+        sync: false
+      - key: MAIL_URL
+        sync: false
